@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="change profile page dialog"
+    tools:context=".ChangeProfilePicDialogFragment">
+
+    <RelativeLayout
+        android:id="@+id/Relative1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/grey_toolbar"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Choose a new Profile Picture"
+            android:contentDescription="Choose a new Profile Picture"
+            android:textColor="@color/trquaz"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Relative1"
+        android:textColor="@color/trquaz"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/photoChosenLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="9"
+                android:gravity="center"
+                android:text="Photo was chosen"
+                android:contentDescription="Photo was chosen"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/close"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#9FA8DA"
+                android:contentDescription="close button to clear selected image"
+                android:src="@drawable/ic_close_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/photoPicker"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_photo_black_24dp"
+                android:clickable="true"
+                android:contentDescription="image picker button. click to choose a new profile picture" />
+
+            <TextView
+                android:id="@+id/chooseImageLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toEndOf="@+id/photoPickerButton"
+                android:contentDescription="image name"
+                android:text="Choose an image"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/trquaz"
+        android:text="update"
+        android:contentDescription="update button. click to start uplouding new picture"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

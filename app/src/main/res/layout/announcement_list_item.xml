@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Flu Announcement"
+        android:textColor="@color/trquaz"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="Posted on: Monday 20, 2018 3:46:54 PM EET"
+        android:textColor="@color/grey_activities" />
+
+    <TextView
+        android:id="@+id/announcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Influenza (flu) is a contagious disease that spreads around the United States every year, usually between October and May. Flu is caused by influenza viruses, and is spread mainly by coughing, sneezing and close contact.
+
+    If any student felt some of thee symptoms, please refer to Health Welleness Center."
+        android:textColor="@color/grey_activities"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/postedByTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Posted by:"
+            android:textColor="@color/grey_activities"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/postedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/postedByTitle"
+            android:layout_marginBottom="30dp"
+            android:text="Health center"
+            android:textColor="@color/grey_activities"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/postedToTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:text="Posted to"
+            android:textColor="@color/grey_activities"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/postedTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/postedToTitle"
+            android:layout_marginBottom="30dp"
+            android:text="You"
+            android:textColor="@color/grey_activities"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

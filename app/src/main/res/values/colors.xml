@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/grey_toolbar</color>
+    <color name="colorPrimaryDark">#DCE2E2</color>
+    <color name="colorAccent">@color/trquaz</color>
+    <color name="ic_launcher_background">@color/trquaz</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="trquaz">#0091B0</color>
+    <color name="grey_toolbar">#DCE2E2</color>
+    <color name="grey_buttons">#929899</color>
+    <color name="grey_login">#5A5E5E</color>
+    <color name="grey_activities">#3a3a3a</color>
+    <color name="dark_grey">#424242</color>
+    <color name="hiperlink">#0000EE</color>
+    <color name="disabled_button">#cccccc</color>
+
+    <color name="smawy">#BBDEFB</color>
+
+</resources>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- CalendarEvent 4 : then do new directory with menu resource file and add items!-->
+    <!-- CalendarEvent 4.1 : To add icons  1-drawable-new-Vector Assest-local file-choose the icon!-->
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/complaints"
+            android:icon="@drawable/ic_report_black_24dp"
+            android:title="Complaints" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_portrait_black_24dp"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_black_24dp"
+            android:title="Log out" />
+    </group>
+
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "844865178381",
+    "firebase_url": "https://brige-it.firebaseio.com",
+    "project_id": "brige-it",
+    "storage_bucket": "brige-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844865178381:android:9f4a32a279fcdf69",
+        "android_client_info": {
+          "package_name": "com.safwat.abanoub.bridgeit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844865178381-sjeuv3pmrki4qppbcf62ak13sgfge67f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACsGKBVuOA68JSc7_yFl2aIYkAs7CL8ZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
